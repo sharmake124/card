@@ -1,0 +1,67 @@
+body {
+  margin: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  background: paleturquoise;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 25em;
+  max-height: 50em;
+  padding: 12px;
+  border-radius: 20px;
+  border: 3px solid black;
+  box-shadow: rgb(23, 22, 22) 10px 10px;
+  margin: 3% auto;
+  background-color: aliceblue;
+}
+
+main img {
+  max-width: 25em;
+  height: 20em;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: blue;
+  margin-bottom: 0.5em;
+}
+
+article p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.75em;
+}
+
+blockquote {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+section button {
+  background-color: blue;
+  font-size: 15px;
+  color: aliceblue;
+  width: 10em;
+  height: 2em;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 55%;
+}
+
+@media screen and (max-width: 382px) {
+  section button {
+    margin-left: 40%;
+  }
+}
